@@ -3,8 +3,7 @@ const { Octokit } = require("@octokit/rest");
 // Get Input Parameters
 const repoOwner = process.env.REPO_OWNER
 const repoName = process.env.REPO_NAME
-const repoVisibility = process.env.REPO_VISIBILITY
-const token = process.env.REPO_OPS_TOKEN
+const token = process.env.REPO_TOKEN
 
 const octokit = new Octokit({
     auth: token
