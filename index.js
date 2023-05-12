@@ -18,7 +18,7 @@ async function listIssues() {
     // Iterate over the issues and print each one
     for (const issue of issues.data) {
         // Print the issue number and the issue's title
-        console.log(issue.number, issue.title);
+        console.log(issue.number, ": ", issue.title);
     }
 }
 
